@@ -20,7 +20,7 @@ public class CalculatriceTest {
 	@Test
 	public void testMul() {
 		Calculatrice cal = new Calculatrice();
-		assertEquals("Est ce que l'addition est correcte",10,cal.mul(5, 2));
+		assertEquals("Est ce que l'addition est correcte",10,cal.mul(5, 3));
 	}
 
 }
